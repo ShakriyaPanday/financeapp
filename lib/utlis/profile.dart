@@ -17,7 +17,7 @@ class ProfileDetail extends StatelessWidget {
                 Text(
                   "Shakriya Panday,",
                   style:
-                      GoogleFonts.lato(fontSize: 20, color: Colors.grey[500]),
+                      GoogleFonts.lato(fontSize: 20, color: Colors.grey[800]),
                 ),
                 Text(
                   "Welcome Back",
@@ -34,7 +34,12 @@ class ProfileDetail extends StatelessWidget {
               child: SizedBox(
                 width: 50,
                 height: 50,
-                child: Image.asset("image/profile.png"),
+                child: Container(
+                    padding: EdgeInsets.all(5),
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(100),
+                        border: Border.all()),
+                    child: Image.asset("image/profile.png")),
               ),
             )
           ],

@@ -11,7 +11,7 @@ class CardDetails extends StatelessWidget {
       decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(30),
           gradient: LinearGradient(
-              colors: [Colors.deepPurple[300]!, Colors.blue[600]!])),
+              colors: [Colors.deepPurple[300]!, Colors.blue[300]!])),
       child: Column(
         children: [
           Row(

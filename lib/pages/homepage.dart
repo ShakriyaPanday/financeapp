@@ -1,5 +1,6 @@
 import 'package:financeapp/utlis/carddetails.dart';
 import 'package:financeapp/utlis/profile.dart';
+import 'package:financeapp/utlis/servies.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -18,7 +19,11 @@ class HomePage extends StatelessWidget {
               SizedBox(
                 height: 30,
               ),
-              CardDetails()
+              CardDetails(),
+              SizedBox(
+                height: 30,
+              ),
+              ServiceList(),
             ],
           ),
         ),
