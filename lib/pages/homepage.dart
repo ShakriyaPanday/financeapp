@@ -1,3 +1,4 @@
+import 'package:financeapp/utlis/billreport.dart';
 import 'package:financeapp/utlis/carddetails.dart';
 import 'package:financeapp/utlis/profile.dart';
 import 'package:financeapp/utlis/servies.dart';
@@ -32,13 +33,17 @@ class HomePage extends StatelessWidget {
             children: [
               ProfileDetail(),
               SizedBox(
-                height: 30,
+                height: 29,
               ),
               CardDetails(),
               SizedBox(
-                height: 30,
+                height: 29,
               ),
               ServiceList(),
+              SizedBox(
+                height: 29,
+              ),
+              BillHistory()
             ],
           ),
         ),
