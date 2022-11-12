@@ -22,10 +22,10 @@ class ProfileDetail extends StatelessWidget {
                 Text(
                   "Welcome Back",
                   style: GoogleFonts.lato(
-                    fontSize: 25,
-                    letterSpacing: 1.2,
-                    wordSpacing: 2,
-                  ),
+                      fontSize: 25,
+                      letterSpacing: 1.2,
+                      wordSpacing: 2,
+                      fontWeight: FontWeight.bold),
                 ),
               ],
             ),

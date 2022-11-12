@@ -1,3 +1,4 @@
+import 'package:financeapp/utlis/carddetails.dart';
 import 'package:financeapp/utlis/profile.dart';
 import 'package:flutter/material.dart';
 
@@ -12,7 +13,13 @@ class HomePage extends StatelessWidget {
         body: Padding(
           padding: const EdgeInsets.all(20.0),
           child: Column(
-            children: [ProfileDetail()],
+            children: [
+              ProfileDetail(),
+              SizedBox(
+                height: 30,
+              ),
+              CardDetails()
+            ],
           ),
         ),
       ),
