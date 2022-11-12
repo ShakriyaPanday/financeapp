@@ -15,7 +15,7 @@ class HomePage extends StatelessWidget {
         bottomNavigationBar: BottomNavigationBar(
             type: BottomNavigationBarType.fixed,
             elevation: 0,
-            backgroundColor: Colors.deepPurple[50],
+            backgroundColor: Colors.grey[200],
             items: [
               BottomNavigationBarItem(
                   icon: Icon(CupertinoIcons.square_grid_2x2), label: "Home"),
@@ -26,7 +26,7 @@ class HomePage extends StatelessWidget {
               BottomNavigationBarItem(
                   icon: Icon(CupertinoIcons.bell), label: "Notification"),
             ]),
-        backgroundColor: Colors.deepPurple[50],
+        backgroundColor: Colors.grey[200],
         body: Padding(
           padding: const EdgeInsets.all(20.0),
           child: Column(
